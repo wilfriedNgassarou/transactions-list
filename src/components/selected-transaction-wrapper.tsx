@@ -13,7 +13,7 @@ export function SelectedTransactionWrapper({ transaction, setSelectedTransaction
     <motion.div
       key="transaction-detail"
       layoutId="wrapper" 
-      className="absolute bg-white w-80 p-4 rounded-3xl flex flex-col gap-4"
+      className="absolute bg-white shadow border-[1.5px] border-black/10 w-80 p-4 rounded-3xl flex flex-col gap-4 cursor-default"
     >
       <div className="flex justify-between">
         <motion.div 
@@ -54,9 +54,9 @@ export function SelectedTransactionWrapper({ transaction, setSelectedTransaction
       </div>
       <div className="w-full border-b-2 border-dotted border-gray-300" />
       <div className="flex flex-col text-sm text-gray-500">
-        <span>#67593</span>
-        <span>September 26</span>
-        <span>12:01 am</span>
+        <span className="capitalize">{transaction.id}</span>
+        <span className="capitalize">{transaction.date}</span>
+        <span className="capitalize">{transaction.time}</span>
       </div>
       <div className="w-full border-b-2 border-dotted border-gray-300" />
       <div className="flex flex-col text-sm text-gray-500">

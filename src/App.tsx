@@ -10,7 +10,7 @@ function App() {
   const [selectedTransaction, setSelectedTransaction] = useState<Transaction | null>(null)
 
   return (
-    <section className="w-full h-dvh flex justify-center items-center bg-gray-50 shadow">
+    <section className="w-full h-dvh flex justify-center items-center">
       <Credits />
       {selectedTransaction != null && (
         <SelectedTransactionWrapper
@@ -21,7 +21,7 @@ function App() {
       <motion.div 
         key="transactions-list"
         layoutId="wrapper" 
-        className="bg-white w-80 p-4 rounded-3xl"
+        className="bg-white shadow border-[1.5px] border-black/10 w-80 p-4 rounded-3xl"
       >
         <h2 className="font-medium text-gray-700">
           Transactions

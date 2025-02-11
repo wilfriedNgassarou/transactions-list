@@ -11,8 +11,8 @@ export const transactions = [
     type: 'subscription',
     icon: <Receipt className="fill-white" size={32} />,
     amount: 6.99,
-    date: 'september 26',
-    time: '12:01 am',
+    date: 'january 02',
+    time: '02:52 pm',
     paymentMethod: {
       type: 'Credit Card',
       icon: <Visa />,
@@ -25,8 +25,8 @@ export const transactions = [
     type: 'mobile recharge',
     icon: <Wifi className="stroke-white" size={28} />,
     amount: 4.05,
-    date: 'september 26',
-    time: '12:01 am',
+    date: 'january 13',
+    time: '10:00 am',
     paymentMethod: {
       type: 'Credit Card',
       icon: <Visa />,
@@ -39,12 +39,12 @@ export const transactions = [
     type: 'subscription',
     icon: <Receipt className="fill-white" size={32} />,
     amount: 5.01,
-    date: 'september 26',
-    time: '12:01 am',
+    date: 'january 24',
+    time: '01:30 pm',
     paymentMethod: {
       type: 'Credit Card',
       icon: <Mastercard />,
-      account: 'XXXX 9342'
+      account: 'XXXX 0156'
     }
   },
   {
@@ -52,9 +52,9 @@ export const transactions = [
     name: 'figma',
     type: 'subscription',
     icon: <Receipt className="fill-white" size={32} />,
-    amount: 15.55,
-    date: 'september 26',
-    time: '12:01 am',
+    amount: 15.15,
+    date: 'january 29',
+    time: '07:45 am',
     paymentMethod: {
       type: 'Credit Card',
       icon: <Visa />,
@@ -67,12 +67,12 @@ export const transactions = [
     type: 'restaurant',
     icon: <Soup className="fill-white stroke-white" size={28} />,
     amount: 12.05,
-    date: 'september 26',
-    time: '12:01 am',
+    date: 'febuary 05',
+    time: '09:15 am',
     paymentMethod: {
       type: 'Credit Card',
       icon: <Mastercard />,
-      account: 'XXXX 9342'
+      account: 'XXXX 0156'
     }
   },
 ] as const
